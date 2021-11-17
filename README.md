@@ -14,7 +14,7 @@
 
 # Try It Out
 
-* Download GameSDK latest and Third party framework (FacebooSDK, FirebaseSDK, AppsflyerSDK)
+* Download [GameSDK latest](https://github.com/nerocasten2021/IOS-GameSDK/releases/) and [Third party framework](https://github.com/nerocasten2021/IOS-GameSDK/releases/) (FacebooSDK, FirebaseSDK, AppsflyerSDK)
 * GoogleService-Info.plist: send via mail
 * Install the following: App Tracking Transparency framework only available starting from Xcode 12 or later-The SDK supports iOS10+
 
@@ -39,6 +39,7 @@
   <string>This identifier will be used to deliver personalized ads to you.</string>
   ```
 ### Configure FacebookSDK in your project (default info.plist)
+** Refer [Facebook get started](https://developers.facebook.com/docs/ios/getting-started#step-2---configure-your-project) **
 ```xml
 <key>FacebookAppID</key>
 <string>FacebookAppID</string>
