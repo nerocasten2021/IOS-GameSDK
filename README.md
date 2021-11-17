@@ -212,3 +212,50 @@ didReceiveNotificationResponse:(UNNotificationResponse *)response
 - (void) IAPCompleted:(NSString *)message{
 }
 ```
+## Show Login/Logout Interface
+```objectivec
+[[GameSDK sharedInstance] showSignInView:self andResultDelegate:self];
+//showSignInView: use as main view controller
+//andResultDelegate: use as Login Delegate
+[[GameSDK sharedInstance] IDSignOut:self];
+//use as Logout Delegate
+```
+## Using IAP
+```objectivec
+IAPDataRequest *iapData = [[IAPDataRequest alloc] 
+          initWithData:_userName 
+          andOrderId:orderID 
+          andOrderInfo:orderInfo 
+          andServerID:server 
+          andAmount:amount 
+          andAppleProductID:productID 
+          andAppleShareSecrect:appleSecret 
+          andRoleID:character 
+          andExtraInfo:extraInfo];
+[[GameSDK sharedInstance] showIAP:(IAPDataRequest *)iapData andMainView:self andIAPDelegate:self];
+//andMainView: use as main view controller
+//andIAPDelegate: use as IAP Delegate
+```
+
+# API Tracking Events
+1. Tracking AppOpen On GameSDK
+```objectivec
+[[GameSDK ServerIdTracking] idAppTrackingOpen:serverID roleID:roleID roleName:roleName];
+```
+2. Tracking with Appsflyer
+```objectivec
+//Custom event:Custom event parameters will be provided separately
+[[GameSDK AppsFlyer] trackingEventOnAF:@"eventName" withValues:(NSDictionary *)values];
+//tracking start trial
+[[GameSDK AppsFlyer] trackingStartTrialEventOnAF];
+//tracking Turial Completion
+[[GameSDK AppsFlyer] trackingTurialCompletedEventOnAF];
+//tracking Spent Credit
+[[GameSDK AppsFlyer] trackingSpentCreditEventOnAF:@"gamer_level"];
+//tracking Level Achieved
+[[GameSDK AppsFlyer] trackingLevelArchiveEventOnAF:@"gamer_level"];
+//tracking Achievement unlocked
+[[GameSDK AppsFlyer] trackingArchiveUnlockEventOnAF:@"gamer_level"];
+```
+
+By using the GameSDK for iOS you agree to these terms.
