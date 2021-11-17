@@ -180,3 +180,35 @@ didReceiveNotificationResponse:(UNNotificationResponse *)response
 ```
 
 # API description and usage
+## Initialize GameSDK
+```objectivec
+#import "GameSDK.h"
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [[GameSDK sharedInstance] initSdk];
+    //...
+}
+```
+## Initialize SDK delegate
+```objectivec
+//MainViewController.h
+@interface MainViewController:UIViewController<UIActionSheetDelegate, SKProductsRequestDelegate, LoginDelegate, IAPDelegate> {
+}
+```
+```objectivec
+//MainViewController.m
+#pragma Login Delegate
+- (void)loginSuccess:(NSString *)userID andUserName:(NSString *)userName andAccessToken:(NSString *)access_token {
+}
+- (void)loginFail:(NSString *)message {
+}
+#pragma Logout Delegate
+- (void) logoutSuccess{
+}
+#pragma IAP Delegate
+- (void) IAPInitFailed:(NSString *)message andErrorCode:(NSString *)errorCode {
+}
+- (void) IAPPurchaseFailed:(NSString *)message andErrorCode:(NSString *)errorCode {
+}
+- (void) IAPCompleted:(NSString *)message{
+}
+```
