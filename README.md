@@ -99,3 +99,84 @@
     }
 }
 ```
+3. Add didFinishLaunchingWithOption
+```objectivec
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //your code
+    
+    //init SDK
+    [[GameSDK sharedInstance] initSdk];
+    [[GameSDK sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
+    [[GameSDK Firebase] application:self andApplication:application didFinishLaunchingWithOptions:launchOptions];
+    return YES;
+}
+```
+4. Add applicationDidBecomeActive
+```objectivec
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+    NSLog(@"applicationDidBecomeActive");
+    [[GameSDK sharedInstance] applicationDidBecomeActive:application];
+    application.applicationIconBadgeNumber = 0;
+}
+```
+5. Add applicationWillTerminate
+```objectivec
+- (void)applicationWillTerminate:(UIApplication *)application {
+    //reset owner billing had payment
+}
+```
+6. Registration FCM token and message
+```objectivec
+- (void)messaging:(FIRMessaging *)messaging didReceiveRegistrationToken:(NSString *)fcmToken {
+    [[GameSDK Firebase] messaging:messaging didReceiveRegistrationToken:fcmToken];
+}
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {
+    NSLog(@"APNs Unable to register for remote notifications: %@", error);
+}
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+    NSLog(@"APNs device token retrieved: %@", deviceToken);
+    NSString *deviceTokenString = [[[[deviceToken description] 
+    stringByReplacingOccurrencesOfString: @"<" withString: @""] 
+    stringByReplacingOccurrencesOfString: @">" withString: @""] 
+    stringByReplacingOccurrencesOfString: @" " withString: @""];
+    //set value for SDK
+    [[GameSDK sharedInstance] gameInfo].devicetoken = deviceTokenString;
+    //tracking uninstall
+    [[GameSDK AppsFlyer] trackingUninstallOnAF:deviceToken];
+}
+- (void)application:(UIApplication *)application 
+        didReceiveRemoteNotification:(NSDictionary *) userInfo {
+    NSLog(@"APNs full message. %@", userInfo);
+}
+- (void)application:(UIApplication *)application 
+      didReceiveRemoteNotification:(NSDictionary *) userInfo
+          fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
+    // Print full message.
+    NSLog(@"APNs receive_message %@", userInfo);
+    completionHandler(UIBackgroundFetchResultNewData);
+}
+// [START ios_10_message_handling]
+// Receive displayed notifications for iOS 10 devices.
+// Handle incoming notification messages while app is in the foreground.
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center
+       willPresentNotification:(UNNotification *)notification
+         withCompletionHandler:(void (^)(UNNotificationPresentationOptions))completionHandler API_AVAILABLE(ios(10.0)){
+    NSDictionary *userInfo = notification.request.content.userInfo;
+    // Print full message.
+    [[GameSDK Firebase] showInAppMessage:userInfo];
+    // Change this to your preferred presentation option
+    completionHandler(UNNotificationPresentationOptionBadge);
+}
+
+// Handle notification messages after display notification is tapped by the user.
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center
+didReceiveNotificationResponse:(UNNotificationResponse *)response
+         withCompletionHandler:(void(^)(void))completionHandler {
+  NSDictionary *userInfo = response.notification.request.content.userInfo;
+    [[GameSDK Firebase] showInAppMessage:userInfo];
+  completionHandler();
+}
+// [END ios_10_message_handling]
+```
+
+# API description and usage
