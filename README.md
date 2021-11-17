@@ -2,7 +2,7 @@
 
 [![Platforms](https://img.shields.io/cocoapods/p/FBSDKCoreKit.svg)]()
 
-### This guide shows you how to integrate your iOS app using the GameSDK for iOS. The GameSDK for iOS consists of the following component SDKs:
+**This guide shows you how to integrate your iOS app using the GameSDK for iOS. The GameSDK for iOS consists of the following component SDKs:**
   - The GameSDK Core
   - Thirdparty framework: GoogleSigin SDK, Firebase SDK, Facebook SDK, AppsFlyer SDK
   
