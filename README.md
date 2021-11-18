@@ -32,12 +32,17 @@
 
 # Configuration
 - Insert -ObjC -lc++ -lz to “Other Linker Flags ”on Xcode Project: Main target -> build settings -> search "other linker flags"
-- Configure Tracking Usage Description into .plist file (default: info.plist)*. 
+- Configure Tracking Usage Description into .plist file (default: info.plist)*.
   Open with source and insert code: 
   ```xml
   <key>NSUserTrackingUsageDescription</key>
   <string>This identifier will be used to deliver personalized ads to you.</string>
   ```
+- Configure Client ID into .plist file (default: info.plist)*. IN the <string> tag, key GameClientID will be provided privately via email
+```xml
+<key>GameClientID</key>
+<string>GameClientID</string>
+```
 ### Configure FacebookSDK in your project (default info.plist)
 ** Refer [Facebook get started](https://developers.facebook.com/docs/ios/getting-started#step-2---configure-your-project) **
 ```xml
