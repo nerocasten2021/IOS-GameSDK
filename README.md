@@ -51,7 +51,7 @@
 <key>FacebookClientToken</key>
 <string>CLIENT-TOKEN</string>
 <key>FacebookDisplayName</key>
-<string>Digi Huyền Thoại</string>
+<string>FacebookDisplayName</string>
 <key>CFBundleURLTypes</key>
 <array>
   <dict>
