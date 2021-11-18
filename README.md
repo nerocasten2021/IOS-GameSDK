@@ -87,7 +87,7 @@
 ### Add services and SDK related resource library
 1. The file Appdelegate.m configuration instructions are as follows:
 ```objectivec
-#import "GosuSDK.h"
+#import "GameSDK.h"
 #import <UserNotifications/UserNotifications.h>
 @interfaceAppDelegate()<FIRMessagingDelegate, UNUserNotificationCenterDelegate>
 @end
