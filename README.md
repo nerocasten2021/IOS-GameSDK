@@ -129,6 +129,7 @@
 ```objectivec
 - (void)applicationWillTerminate:(UIApplication *)application {
     //reset owner billing had payment
+    [[GameSDK sharedInstance] terminateIAP];
 }
 ```
 6. Registration FCM token and message
