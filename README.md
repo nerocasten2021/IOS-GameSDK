@@ -266,18 +266,13 @@ IAPDataRequest *iapData = [[IAPDataRequest alloc]
 ```
 3. Tracking with Firebase
 ```objectivec
-//Custom event:Custom event parameters will be provided separately
-[[GameSDK AppsFlyer] trackingEventOnAF:@"eventName" withValues:(NSDictionary *)values];
 //tracking start trial
-[[GameSDK AppsFlyer] trackingStartTrialEventOnAF];
-//tracking Turial Completion
-[[GameSDK AppsFlyer] trackingTurialCompletedEventOnAF];
-//tracking Spent Credit
-[[GameSDK AppsFlyer] trackingSpentCreditEventOnAF:@"gamer_level"];
-//tracking Level Achieved
-[[GameSDK AppsFlyer] trackingLevelArchiveEventOnAF:@"gamer_level"];
-//tracking Achievement unlocked
-[[GameSDK AppsFlyer] trackingArchiveUnlockEventOnAF:@"gamer_level"];
+[[GameSDK Firebase] trackingEventOnFirebase:@"eventName" parameters:@{@"eventEventLogKey":@"eventEventLogValue"}];
+[[GameSDK Firebase] trackingScreenOnFirebase:@"screenName" screenClass:@"screenClass"];
+[[GameSDK Firebase] setUserPropertiesOnFirebase:@"userValue" forName:@"usernameName"];
+//    subscribe
+[[GameSDK Firebase] FirebaseSubscribeToTopic:@"topicName"];
+[[GameSDK Firebase] FirebaseUnSubscribeToTopic:@"topicName"];
 ```
   
 By using the GameSDK for iOS you agree to these terms.
