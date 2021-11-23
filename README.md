@@ -228,6 +228,8 @@ didReceiveNotificationResponse:(UNNotificationResponse *)response
 //use as Logout Delegate
 ```
 ## Using IAP
+*** appleSecret default is empty (ex: @""), This will change when we send the request to you
+  
 ```objectivec
 IAPDataRequest *iapData = [[IAPDataRequest alloc] 
           initWithData:_userName 
