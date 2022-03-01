@@ -23,26 +23,30 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb235882178576860</string>
+				<string></string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string></string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>FacebookAppID</key>
-	<string>235882178576860</string>
+	<string></string>
 	<key>FacebookAutoLogAppEventsEnabled</key>
 	<false/>
 	<key>FacebookClientToken</key>
 	<string>CLIENT-TOKEN</string>
 	<key>FacebookDisplayName</key>
-	<string>BAPVIP ID</string>
+	<string>Liên Minh Bảo Bối</string>
 	<key>GameClientID</key>
-	<string>m399.av4ICBl7lvkUTRUnjBTAGz</string>
-	<key>GameClientIDGosuTest</key>
-	<string>m321.BG3WJcTZy9sKaymZ</string>
-	<key>GameClientIDGamoTest</key>
-	<string>m986.JwpLLCgupVQeYhJM</string>
+	<string></string>
+	<key>GoogleAppID</key>
+	<string></string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbauth</string>
@@ -66,6 +70,11 @@
 			<key>SKAdNetworkIdentifier</key>
 			<string>cstr6suwn9.skadnetwork</string>
 		</dict>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

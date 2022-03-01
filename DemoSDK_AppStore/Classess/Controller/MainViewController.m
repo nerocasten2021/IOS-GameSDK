@@ -334,4 +334,14 @@
     //tracking Achievement unlocked
     [[GameSDK AppsFlyer] trackingArchiveUnlockEventOnAF:@"gamer_level"];
 }
+
+- (void) callTrackingFirebaseExample {
+    //tracking start trial
+    [[GameSDK Firebase] trackingEventOnFirebase:@"eventName" parameters:@{@"eventEventLogKey":@"eventEventLogValue"}];
+    [[GameSDK Firebase] trackingScreenOnFirebase:@"screenName" screenClass:@"screenClass"];
+    [[GameSDK Firebase] setUserPropertiesOnFirebase:@"userValue" forName:@"usernameName"];
+//    subscribe
+    [[GameSDK Firebase] FirebaseSubscribeToTopic:@"topicName"];
+    [[GameSDK Firebase] FirebaseUnSubscribeToTopic:@"topicName"];
+}
 @end
