@@ -27,6 +27,8 @@
   - MobileCoreServices.framework
   - SystemConfiguration.framework
   - MessageUI.framework
+- Adding Capabilities: Sign-in with Apple, Push Notifications
+
 ### With Facebook IOS SDK version 13 or latest
   - Create a swift file (arbitrary name), confirm "Create Bridging Header" when prompt appear
   - Add Accelerate.framework to target: Target --> Build Phases --> Link Binary With Libraries --> click Plus, find and add Accelerate.framework
@@ -34,7 +36,7 @@
   
 ### With Facebook IOS SDK version 11
 - Embed FacebookSDK framework (FBSDK*) with embed content is **Embed & Sign**
-- Adding Capabilities: Sign-in with Apple, Push Notifications
+
 
 # Configuration
 - Insert -ObjC -lc++ -lz to “Other Linker Flags ”on Xcode Project: Main target -> build settings -> search "other linker flags"
