@@ -91,7 +91,23 @@
 * Replace APP-ID with FacebookApp ID
 * In the key FacebookClientToken, replace CLIENT-TOKEN 
 * In the key FacebookDisplayName, replaceAPP-NAME with the name of provided.
-
+  
+### Configure GoogleSignIn in your project (default info.plist)
+  ** Refer [Get started with Google Sign-In for iOS](https://developers.google.com/identity/sign-in/ios/start-integrating) **
+  ```xml
+   <key>GoogleAppID</key>
+   <string>1234567890-abcdefg.apps.googleusercontent.com</string>
+   <key>CFBundleURLTypes</key>
+   <array>
+    <dict>
+       <key>CFBundleURLSchemes</key>
+       <array>
+          <string>com.googleusercontent.apps.1234567890-abcdefg</string>
+       </array>
+    </dict>
+   </array>
+  ```
+  
 ### Add services and SDK related resource library
 1. The file Appdelegate.m configuration instructions are as follows:
 ```objectivec
