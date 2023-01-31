@@ -34,7 +34,7 @@
   - Add Accelerate.framework to target: Target --> Build Phases --> Link Binary With Libraries --> click Plus, find and add Accelerate.framework
   - Enable Modules (C and Objective-C) set to YES: Target --> Build Settings --> Enable Modules (C and Objective-C)
   
-### With Facebook IOS SDK version 11
+### With Facebook IOS SDK version 11 or lower
 - Embed FacebookSDK framework (FBSDK*) with embed content is **Embed & Sign**
 
 
