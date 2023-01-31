@@ -32,13 +32,9 @@
 		<data>
 		24ZW4yvjkN8PkfES3yFpdbO768M=
 		</data>
-		<key>View1Controller.nib/objects-11.0+.nib</key>
+		<key>View1Controller.nib</key>
 		<data>
 		0Lmouu3X5hHjrOrPl2qNaW/Wtio=
-		</data>
-		<key>View1Controller.nib/runtime.nib</key>
-		<data>
-		O12etl1eJenDkX+1nlbOity1MHQ=
 		</data>
 		<key>close.png</key>
 		<data>
@@ -134,7 +130,7 @@
 		</data>
 		<key>oPayViewController.nib</key>
 		<data>
-		zs5fqfMzP7nRtxoM2FA4NVXdLR8=
+		tpbFeULhrQIDQTJbLxY7p4DSVbI=
 		</data>
 		<key>tao_trang.png</key>
 		<data>
@@ -224,7 +220,7 @@
 			ll1ZnDLS3soqR9t1egZT3NPKMdv9GzWNUujipW6MGxM=
 			</data>
 		</dict>
-		<key>View1Controller.nib/objects-11.0+.nib</key>
+		<key>View1Controller.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -233,17 +229,6 @@
 			<key>hash2</key>
 			<data>
 			dpn5BOGhPAmwyd7nOJNWssOYaYQJH+gChHQfK7AS4do=
-			</data>
-		</dict>
-		<key>View1Controller.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			O12etl1eJenDkX+1nlbOity1MHQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			Xd+DYI+b2tdr2O4FHwf+ElLccpR3M1+FPZUejgcTWGI=
 			</data>
 		</dict>
 		<key>close.png</key>
@@ -503,11 +488,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zs5fqfMzP7nRtxoM2FA4NVXdLR8=
+			tpbFeULhrQIDQTJbLxY7p4DSVbI=
 			</data>
 			<key>hash2</key>
 			<data>
-			QG5XmCj2lh6SvdHTUbszbpvlQIzvJ7XZjBpxIvp5jkY=
+			ikvrkaByQys/TxHnXOXJv0cixgI+xiiwK6kJQ0Wo/7M=
 			</data>
 		</dict>
 		<key>tao_trang.png</key>
