@@ -34,10 +34,6 @@
   - Add Accelerate.framework to target: Target --> Build Phases --> Link Binary With Libraries --> click Plus, find and add Accelerate.framework
   - Enable Modules (C and Objective-C) set to YES: Target --> Build Settings --> Enable Modules (C and Objective-C)
   
-### With Facebook IOS SDK version 11 or lower
-- Embed FacebookSDK framework (FBSDK*) with embed content is **Embed & Sign**
-
-
 # Configuration
 - Insert -ObjC -lc++ -lz to “Other Linker Flags ”on Xcode Project: Main target -> build settings -> search "other linker flags"
 - Configure Tracking Usage Description into .plist file (default: info.plist)*.
