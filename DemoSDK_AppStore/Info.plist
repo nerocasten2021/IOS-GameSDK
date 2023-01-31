@@ -23,20 +23,20 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string></string>
+				<string>fb1916607725182681</string>
 			</array>
 		</dict>
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string></string>
+				<string>com.googleusercontent.apps.599125603004-1ro52uln95jfuc59bku4tapv5iah29jf</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>FacebookAppID</key>
-	<string></string>
+	<string>1916607725182681</string>
 	<key>FacebookAutoLogAppEventsEnabled</key>
 	<false/>
 	<key>FacebookClientToken</key>
@@ -44,9 +44,9 @@
 	<key>FacebookDisplayName</key>
 	<string>Liên Minh Bảo Bối</string>
 	<key>GameClientID</key>
-	<string></string>
+	<string>m331.9Ny5I7px5qhG8A2TJSa6IR</string>
 	<key>GoogleAppID</key>
-	<string></string>
+	<string>599125603004-1ro52uln95jfuc59bku4tapv5iah29jf.apps.googleusercontent.com</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbauth</string>
@@ -62,6 +62,8 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Login with faceid</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier will be used to deliver personalized ads to you.</string>
 	<key>SKAdNetworkItems</key>
@@ -92,8 +94,6 @@
 	<array>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,55 +20,35 @@
 		8A83352A21006DDA007200B0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A83352921006DDA007200B0 /* MobileCoreServices.framework */; };
 		8A9A52D0212D1C6D0097A25C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9A52CF212D1C6D0097A25C /* MediaPlayer.framework */; };
 		8AB17D99239FCD6D0057AED5 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB17D98239FCD6D0057AED5 /* AuthenticationServices.framework */; };
+		CE1182AD28FD380F0033BBD2 /* GameSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE11828F28FD380F0033BBD2 /* GameSDKResource.bundle */; };
+		CE1182AE28FD380F0033BBD2 /* FirebaseCrashlytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11829228FD380F0033BBD2 /* FirebaseCrashlytics.xcframework */; };
+		CE1182AF28FD380F0033BBD2 /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11829428FD380F0033BBD2 /* nanopb.xcframework */; };
+		CE1182B028FD380F0033BBD2 /* GoogleAppMeasurementIdentitySupport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11829528FD380F0033BBD2 /* GoogleAppMeasurementIdentitySupport.xcframework */; };
+		CE1182B128FD380F0033BBD2 /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11829628FD380F0033BBD2 /* PromisesObjC.xcframework */; };
+		CE1182B228FD380F0033BBD2 /* FirebaseAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11829728FD380F0033BBD2 /* FirebaseAnalytics.xcframework */; };
+		CE1182B328FD380F0033BBD2 /* FirebaseCoreDiagnostics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11829828FD380F0033BBD2 /* FirebaseCoreDiagnostics.xcframework */; };
+		CE1182B428FD380F0033BBD2 /* FirebaseInstallations.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11829928FD380F0033BBD2 /* FirebaseInstallations.xcframework */; };
+		CE1182B528FD380F0033BBD2 /* FirebaseCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11829A28FD380F0033BBD2 /* FirebaseCore.xcframework */; };
+		CE1182B628FD380F0033BBD2 /* GoogleDataTransport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11829B28FD380F0033BBD2 /* GoogleDataTransport.xcframework */; };
+		CE1182B728FD380F0033BBD2 /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11829C28FD380F0033BBD2 /* GoogleAppMeasurement.xcframework */; };
+		CE1182B828FD380F0033BBD2 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11829D28FD380F0033BBD2 /* GoogleUtilities.xcframework */; };
+		CE1182B928FD380F0033BBD2 /* FirebaseMessaging.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11829F28FD380F0033BBD2 /* FirebaseMessaging.xcframework */; };
+		CE1182BA28FD380F0033BBD2 /* AppAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1182A128FD380F0033BBD2 /* AppAuth.xcframework */; };
+		CE1182BB28FD380F0033BBD2 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE1182A328FD380F0033BBD2 /* GoogleSignIn.bundle */; };
+		CE1182BC28FD380F0033BBD2 /* GoogleSignIn.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1182A428FD380F0033BBD2 /* GoogleSignIn.xcframework */; };
+		CE1182BD28FD380F0033BBD2 /* GTMAppAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1182A528FD380F0033BBD2 /* GTMAppAuth.xcframework */; };
+		CE1182BE28FD380F0033BBD2 /* GTMSessionFetcher.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1182A628FD380F0033BBD2 /* GTMSessionFetcher.xcframework */; };
+		CE1182BF28FD380F0033BBD2 /* GameSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1182A728FD380F0033BBD2 /* GameSDK.xcframework */; };
+		CE1182CD28FD3A210033BBD2 /* FBSDKLoginKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1182C828FD3A210033BBD2 /* FBSDKLoginKit.xcframework */; };
+		CE1182CE28FD3A210033BBD2 /* FBSDKShareKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1182C928FD3A210033BBD2 /* FBSDKShareKit.xcframework */; };
+		CE1182CF28FD3A210033BBD2 /* FBAEMKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1182CA28FD3A210033BBD2 /* FBAEMKit.xcframework */; };
+		CE1182D028FD3A210033BBD2 /* FBSDKCoreKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1182CB28FD3A210033BBD2 /* FBSDKCoreKit.xcframework */; };
+		CE1182D128FD3A210033BBD2 /* FBSDKCoreKit_Basics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1182CC28FD3A210033BBD2 /* FBSDKCoreKit_Basics.xcframework */; };
 		CE2D707B2542CBE400499913 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE2D707A2542CBE400499913 /* GoogleService-Info.plist */; };
-		CE6BF94927CC85FA008EC577 /* GameSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE6BF93A27CC85FA008EC577 /* GameSDKResource.bundle */; };
-		CE6BF94A27CC85FA008EC577 /* libGameSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6BF94827CC85FA008EC577 /* libGameSDK.a */; };
-		CE6BF9D427CDFEFB008EC577 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6BF9CF27CDFEFB008EC577 /* FBSDKCoreKit.framework */; };
-		CE6BF9D527CDFEFB008EC577 /* FBSDKCoreKit_Basics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6BF9D027CDFEFB008EC577 /* FBSDKCoreKit_Basics.framework */; };
-		CE6BF9D627CDFEFB008EC577 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6BF9D127CDFEFB008EC577 /* FBSDKShareKit.framework */; };
-		CE6BF9D827CDFEFB008EC577 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6BF9D327CDFEFB008EC577 /* FBSDKLoginKit.framework */; };
-		CE6BF9EE27CE04DD008EC577 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6BF9EA27CE04DC008EC577 /* FirebaseCoreDiagnostics.framework */; };
-		CE6BF9EF27CE04DD008EC577 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6BF9EB27CE04DD008EC577 /* FirebaseAnalytics.framework */; };
-		CE6BF9F127CE04DD008EC577 /* FirebaseInstallations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6BF9ED27CE04DD008EC577 /* FirebaseInstallations.framework */; };
-		CE6BF9F327CE05CA008EC577 /* FBSDKCoreKit_Basics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE6BF9D027CDFEFB008EC577 /* FBSDKCoreKit_Basics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CE6BF9F427CE05CA008EC577 /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE6BF9CF27CDFEFB008EC577 /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CE6BF9F527CE05CA008EC577 /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE6BF9D327CDFEFB008EC577 /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CE6BF9F627CE05CA008EC577 /* FBSDKShareKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE6BF9D127CDFEFB008EC577 /* FBSDKShareKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CE78DDB6276846EA00E24B54 /* GoogleDataTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE78DDA1276846E900E24B54 /* GoogleDataTransport.framework */; };
-		CE78DDB8276846EA00E24B54 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE78DDA3276846E900E24B54 /* GoogleAppMeasurement.framework */; };
-		CE78DDB9276846EA00E24B54 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE78DDA4276846E900E24B54 /* GTMSessionFetcher.framework */; };
-		CE78DDBA276846EA00E24B54 /* GTMAppAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE78DDA5276846E900E24B54 /* GTMAppAuth.framework */; };
-		CE78DDBB276846EA00E24B54 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE78DDA6276846E900E24B54 /* FirebaseCore.framework */; };
-		CE78DDBC276846EA00E24B54 /* AppAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE78DDA7276846E900E24B54 /* AppAuth.framework */; };
-		CE78DDBD276846EA00E24B54 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE78DDA8276846E900E24B54 /* FirebaseAnalytics.framework */; };
-		CE78DDBE276846EA00E24B54 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE78DDAA276846E900E24B54 /* GoogleUtilities.framework */; };
-		CE78DDBF276846EA00E24B54 /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE78DDAB276846E900E24B54 /* FirebaseMessaging.framework */; };
-		CE78DDC0276846EA00E24B54 /* PromisesObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE78DDAC276846E900E24B54 /* PromisesObjC.framework */; };
-		CE78DDC1276846EA00E24B54 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE78DDAD276846E900E24B54 /* GoogleSignIn.bundle */; };
-		CE78DDC2276846EA00E24B54 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE78DDAE276846E900E24B54 /* nanopb.framework */; };
-		CE78DDC4276846EA00E24B54 /* FirebaseInstallations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE78DDB0276846EA00E24B54 /* FirebaseInstallations.framework */; };
-		CE78DDC5276846EA00E24B54 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE78DDB1276846EA00E24B54 /* GoogleSignIn.framework */; };
-		CE78DDC6276846EA00E24B54 /* GoogleAppMeasurementIdentitySupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE78DDB2276846EA00E24B54 /* GoogleAppMeasurementIdentitySupport.framework */; };
-		CE78DDC8276846EA00E24B54 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE78DDB4276846EA00E24B54 /* FirebaseCoreDiagnostics.framework */; };
-		CE78DDCA2768470500E24B54 /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE78DDC92768470500E24B54 /* AppsFlyerLib.framework */; };
+		CE8FF44427D1FD41004C325E /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8FF42F27D1FD41004C325E /* AppsFlyerLib.framework */; };
+		CEE10E4227E0902000129EBC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE10E4127E0902000129EBC /* File.swift */; };
+		CEE10E9D27E0918C00129EBC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE354F525B31CD00008F412 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CE6BF9FC27CE0CC4008EC577 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE6BF9F727CE0CC4008EC577 /* GameSDK.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CE14FD2B272BA60C000D21F6;
-			remoteInfo = GameSDK;
-		};
-		CE6BF9FE27CE0CC4008EC577 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE6BF9F727CE0CC4008EC577 /* GameSDK.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CE14FDDF272C000A000D21F6;
-			remoteInfo = GameSDKResource;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		CE82110F26A7C17700729078 /* Embed Frameworks */ = {
@@ -77,10 +57,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CE6BF9F327CE05CA008EC577 /* FBSDKCoreKit_Basics.framework in Embed Frameworks */,
-				CE6BF9F427CE05CA008EC577 /* FBSDKCoreKit.framework in Embed Frameworks */,
-				CE6BF9F527CE05CA008EC577 /* FBSDKLoginKit.framework in Embed Frameworks */,
-				CE6BF9F627CE05CA008EC577 /* FBSDKShareKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,48 +82,36 @@
 		8A97A1BF233F03C20025F418 /* DemoSDK_AppStore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoSDK_AppStore.entitlements; sourceTree = "<group>"; };
 		8A9A52CF212D1C6D0097A25C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		8AB17D98239FCD6D0057AED5 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		CE11828F28FD380F0033BBD2 /* GameSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GameSDKResource.bundle; sourceTree = "<group>"; };
+		CE11829128FD380F0033BBD2 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		CE11829228FD380F0033BBD2 /* FirebaseCrashlytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseCrashlytics.xcframework; sourceTree = "<group>"; };
+		CE11829428FD380F0033BBD2 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
+		CE11829528FD380F0033BBD2 /* GoogleAppMeasurementIdentitySupport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurementIdentitySupport.xcframework; sourceTree = "<group>"; };
+		CE11829628FD380F0033BBD2 /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PromisesObjC.xcframework; sourceTree = "<group>"; };
+		CE11829728FD380F0033BBD2 /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseAnalytics.xcframework; sourceTree = "<group>"; };
+		CE11829828FD380F0033BBD2 /* FirebaseCoreDiagnostics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseCoreDiagnostics.xcframework; sourceTree = "<group>"; };
+		CE11829928FD380F0033BBD2 /* FirebaseInstallations.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseInstallations.xcframework; sourceTree = "<group>"; };
+		CE11829A28FD380F0033BBD2 /* FirebaseCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseCore.xcframework; sourceTree = "<group>"; };
+		CE11829B28FD380F0033BBD2 /* GoogleDataTransport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleDataTransport.xcframework; sourceTree = "<group>"; };
+		CE11829C28FD380F0033BBD2 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		CE11829D28FD380F0033BBD2 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		CE11829F28FD380F0033BBD2 /* FirebaseMessaging.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseMessaging.xcframework; sourceTree = "<group>"; };
+		CE1182A128FD380F0033BBD2 /* AppAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AppAuth.xcframework; sourceTree = "<group>"; };
+		CE1182A328FD380F0033BBD2 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		CE1182A428FD380F0033BBD2 /* GoogleSignIn.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleSignIn.xcframework; sourceTree = "<group>"; };
+		CE1182A528FD380F0033BBD2 /* GTMAppAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GTMAppAuth.xcframework; sourceTree = "<group>"; };
+		CE1182A628FD380F0033BBD2 /* GTMSessionFetcher.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GTMSessionFetcher.xcframework; sourceTree = "<group>"; };
+		CE1182A728FD380F0033BBD2 /* GameSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GameSDK.xcframework; sourceTree = "<group>"; };
+		CE1182C828FD3A210033BBD2 /* FBSDKLoginKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBSDKLoginKit.xcframework; sourceTree = "<group>"; };
+		CE1182C928FD3A210033BBD2 /* FBSDKShareKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBSDKShareKit.xcframework; sourceTree = "<group>"; };
+		CE1182CA28FD3A210033BBD2 /* FBAEMKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBAEMKit.xcframework; sourceTree = "<group>"; };
+		CE1182CB28FD3A210033BBD2 /* FBSDKCoreKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBSDKCoreKit.xcframework; sourceTree = "<group>"; };
+		CE1182CC28FD3A210033BBD2 /* FBSDKCoreKit_Basics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBSDKCoreKit_Basics.xcframework; sourceTree = "<group>"; };
 		CE2D707A2542CBE400499913 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		CE6BF93A27CC85FA008EC577 /* GameSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GameSDKResource.bundle; path = "../../../../../../../../../../Library/Developer/Xcode/DerivedData/DemoSDK_AppStore-bfkazezjniwayggdizxewafkgvru/Build/Products/Debug-iphoneos/GameSDKResource.bundle"; sourceTree = "<group>"; };
-		CE6BF93D27CC85FA008EC577 /* FirebaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirebaseManager.h; sourceTree = "<group>"; };
-		CE6BF93E27CC85FA008EC577 /* GameSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSDK.h; sourceTree = "<group>"; };
-		CE6BF93F27CC85FA008EC577 /* LoginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginDelegate.h; sourceTree = "<group>"; };
-		CE6BF94027CC85FA008EC577 /* IdAppTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdAppTracking.h; sourceTree = "<group>"; };
-		CE6BF94127CC85FA008EC577 /* UserProfileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileResponse.h; sourceTree = "<group>"; };
-		CE6BF94227CC85FA008EC577 /* IAPDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPDataRequest.h; sourceTree = "<group>"; };
-		CE6BF94327CC85FA008EC577 /* FacebookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookManager.h; sourceTree = "<group>"; };
-		CE6BF94427CC85FA008EC577 /* GameInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfo.h; sourceTree = "<group>"; };
-		CE6BF94527CC85FA008EC577 /* AppsflyerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsflyerManager.h; sourceTree = "<group>"; };
-		CE6BF94627CC85FA008EC577 /* IAPDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPDelegate.h; sourceTree = "<group>"; };
-		CE6BF94727CC85FA008EC577 /* AppleIAP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleIAP.h; sourceTree = "<group>"; };
-		CE6BF94827CC85FA008EC577 /* libGameSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGameSDK.a; path = "../../../../../../../../../../Library/Developer/Xcode/DerivedData/DemoSDK_AppStore-bfkazezjniwayggdizxewafkgvru/Build/Products/Debug-iphoneos/libGameSDK.a"; sourceTree = "<group>"; };
-		CE6BF9CF27CDFEFB008EC577 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		CE6BF9D027CDFEFB008EC577 /* FBSDKCoreKit_Basics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit_Basics.framework; sourceTree = "<group>"; };
-		CE6BF9D127CDFEFB008EC577 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
-		CE6BF9D327CDFEFB008EC577 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		CE6BF9EA27CE04DC008EC577 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
-		CE6BF9EB27CE04DD008EC577 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		CE6BF9EC27CE04DD008EC577 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
-		CE6BF9ED27CE04DD008EC577 /* FirebaseInstallations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = "<group>"; };
-		CE6BF9F727CE0CC4008EC577 /* GameSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GameSDK.xcodeproj; path = ../GameSDK_v0.0.4/GameSDK.xcodeproj; sourceTree = "<group>"; };
-		CE78DDA1276846E900E24B54 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = "<group>"; };
-		CE78DDA3276846E900E24B54 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
-		CE78DDA4276846E900E24B54 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
-		CE78DDA5276846E900E24B54 /* GTMAppAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMAppAuth.framework; sourceTree = "<group>"; };
-		CE78DDA6276846E900E24B54 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
-		CE78DDA7276846E900E24B54 /* AppAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppAuth.framework; sourceTree = "<group>"; };
-		CE78DDA8276846E900E24B54 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		CE78DDA9276846E900E24B54 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
-		CE78DDAA276846E900E24B54 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
-		CE78DDAB276846E900E24B54 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = "<group>"; };
-		CE78DDAC276846E900E24B54 /* PromisesObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PromisesObjC.framework; sourceTree = "<group>"; };
-		CE78DDAD276846E900E24B54 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
-		CE78DDAE276846E900E24B54 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
-		CE78DDB0276846EA00E24B54 /* FirebaseInstallations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = "<group>"; };
-		CE78DDB1276846EA00E24B54 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
-		CE78DDB2276846EA00E24B54 /* GoogleAppMeasurementIdentitySupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurementIdentitySupport.framework; sourceTree = "<group>"; };
-		CE78DDB4276846EA00E24B54 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
-		CE78DDC92768470500E24B54 /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppsFlyerLib.framework; path = "third-party/AppsFlyerLib.framework"; sourceTree = "<group>"; };
+		CE8FF42F27D1FD41004C325E /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
 		CEDE6F1726A85C7F00075816 /* libGosuSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGosuSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE10E4027E0901F00129EBC /* DemoSDK_AppStore-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoSDK_AppStore-Bridging-Header.h"; sourceTree = "<group>"; };
+		CEE10E4127E0902000129EBC /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		CEE354F525B31CD00008F412 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		CEF7BEBB25553C1200E22F64 /* TienKiemMobileDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TienKiemMobileDebug.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,35 +121,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6BF9D527CDFEFB008EC577 /* FBSDKCoreKit_Basics.framework in Frameworks */,
-				CE78DDC2276846EA00E24B54 /* nanopb.framework in Frameworks */,
-				CE78DDBC276846EA00E24B54 /* AppAuth.framework in Frameworks */,
-				CE78DDC0276846EA00E24B54 /* PromisesObjC.framework in Frameworks */,
-				CE6BF9EF27CE04DD008EC577 /* FirebaseAnalytics.framework in Frameworks */,
-				CE78DDCA2768470500E24B54 /* AppsFlyerLib.framework in Frameworks */,
-				CE78DDBB276846EA00E24B54 /* FirebaseCore.framework in Frameworks */,
-				CE6BF9EE27CE04DD008EC577 /* FirebaseCoreDiagnostics.framework in Frameworks */,
-				CE78DDBF276846EA00E24B54 /* FirebaseMessaging.framework in Frameworks */,
-				CE78DDB9276846EA00E24B54 /* GTMSessionFetcher.framework in Frameworks */,
-				CE6BF9F127CE04DD008EC577 /* FirebaseInstallations.framework in Frameworks */,
+				CE1182AE28FD380F0033BBD2 /* FirebaseCrashlytics.xcframework in Frameworks */,
+				CE1182BA28FD380F0033BBD2 /* AppAuth.xcframework in Frameworks */,
+				CE1182B028FD380F0033BBD2 /* GoogleAppMeasurementIdentitySupport.xcframework in Frameworks */,
+				CE1182B728FD380F0033BBD2 /* GoogleAppMeasurement.xcframework in Frameworks */,
+				CEE10E9D27E0918C00129EBC /* Accelerate.framework in Frameworks */,
+				CE1182CE28FD3A210033BBD2 /* FBSDKShareKit.xcframework in Frameworks */,
+				CE1182BE28FD380F0033BBD2 /* GTMSessionFetcher.xcframework in Frameworks */,
 				8AB17D99239FCD6D0057AED5 /* AuthenticationServices.framework in Frameworks */,
-				CE78DDB8276846EA00E24B54 /* GoogleAppMeasurement.framework in Frameworks */,
-				CE6BF94A27CC85FA008EC577 /* libGameSDK.a in Frameworks */,
-				CE6BF9D827CDFEFB008EC577 /* FBSDKLoginKit.framework in Frameworks */,
+				CE1182CD28FD3A210033BBD2 /* FBSDKLoginKit.xcframework in Frameworks */,
+				CE1182B828FD380F0033BBD2 /* GoogleUtilities.xcframework in Frameworks */,
+				CE1182B428FD380F0033BBD2 /* FirebaseInstallations.xcframework in Frameworks */,
 				8A9A52D0212D1C6D0097A25C /* MediaPlayer.framework in Frameworks */,
-				CE6BF9D627CDFEFB008EC577 /* FBSDKShareKit.framework in Frameworks */,
+				CE1182B228FD380F0033BBD2 /* FirebaseAnalytics.xcframework in Frameworks */,
+				CE1182B928FD380F0033BBD2 /* FirebaseMessaging.xcframework in Frameworks */,
+				CE1182B528FD380F0033BBD2 /* FirebaseCore.xcframework in Frameworks */,
 				8A83352A21006DDA007200B0 /* MobileCoreServices.framework in Frameworks */,
-				CE78DDC5276846EA00E24B54 /* GoogleSignIn.framework in Frameworks */,
-				CE78DDBA276846EA00E24B54 /* GTMAppAuth.framework in Frameworks */,
-				CE78DDB6276846EA00E24B54 /* GoogleDataTransport.framework in Frameworks */,
+				CE1182BF28FD380F0033BBD2 /* GameSDK.xcframework in Frameworks */,
+				CE8FF44427D1FD41004C325E /* AppsFlyerLib.framework in Frameworks */,
+				CE1182CF28FD3A210033BBD2 /* FBAEMKit.xcframework in Frameworks */,
+				CE1182B628FD380F0033BBD2 /* GoogleDataTransport.xcframework in Frameworks */,
+				CE1182AF28FD380F0033BBD2 /* nanopb.xcframework in Frameworks */,
+				CE1182BD28FD380F0033BBD2 /* GTMAppAuth.xcframework in Frameworks */,
 				8A83352821006DD4007200B0 /* SystemConfiguration.framework in Frameworks */,
-				CE78DDC6276846EA00E24B54 /* GoogleAppMeasurementIdentitySupport.framework in Frameworks */,
+				CE1182BC28FD380F0033BBD2 /* GoogleSignIn.xcframework in Frameworks */,
 				8A83352621006DCC007200B0 /* MessageUI.framework in Frameworks */,
-				CE78DDBE276846EA00E24B54 /* GoogleUtilities.framework in Frameworks */,
-				CE78DDC8276846EA00E24B54 /* FirebaseCoreDiagnostics.framework in Frameworks */,
-				CE6BF9D427CDFEFB008EC577 /* FBSDKCoreKit.framework in Frameworks */,
-				CE78DDBD276846EA00E24B54 /* FirebaseAnalytics.framework in Frameworks */,
-				CE78DDC4276846EA00E24B54 /* FirebaseInstallations.framework in Frameworks */,
+				CE1182D128FD3A210033BBD2 /* FBSDKCoreKit_Basics.xcframework in Frameworks */,
+				CE1182B328FD380F0033BBD2 /* FirebaseCoreDiagnostics.xcframework in Frameworks */,
+				CE1182D028FD3A210033BBD2 /* FBSDKCoreKit.xcframework in Frameworks */,
+				CE1182B128FD380F0033BBD2 /* PromisesObjC.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +159,6 @@
 		8A8334CF21006C00007200B0 = {
 			isa = PBXGroup;
 			children = (
-				CE6BF9F727CE0CC4008EC577 /* GameSDK.xcodeproj */,
 				8A8334DA21006C00007200B0 /* DemoSDK_AppStore */,
 				8A83352221006DBE007200B0 /* Frameworks */,
 				8A8334D921006C00007200B0 /* Products */,
@@ -217,6 +180,7 @@
 				CEF7BEBB25553C1200E22F64 /* TienKiemMobileDebug.entitlements */,
 				8A97A1BF233F03C20025F418 /* DemoSDK_AppStore.entitlements */,
 				8A8334DB21006C00007200B0 /* AppDelegate.h */,
+				CEE10E4127E0902000129EBC /* File.swift */,
 				8A8334DC21006C00007200B0 /* AppDelegate.m */,
 				8A8334E421006C01007200B0 /* Assets.xcassets */,
 				8A8334F621006CD2007200B0 /* Classess */,
@@ -224,6 +188,7 @@
 				8A5528C2211B324700F7E933 /* LaunchScreen.storyboard */,
 				8A8334EA21006C01007200B0 /* main.m */,
 				8A8334F121006CD2007200B0 /* Resources */,
+				CEE10E4027E0901F00129EBC /* DemoSDK_AppStore-Bridging-Header.h */,
 			);
 			path = DemoSDK_AppStore;
 			sourceTree = "<group>";
@@ -286,85 +251,93 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CE11829028FD380F0033BBD2 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				CE11829128FD380F0033BBD2 /* Firebase.h */,
+				CE11829228FD380F0033BBD2 /* FirebaseCrashlytics.xcframework */,
+				CE11829328FD380F0033BBD2 /* FirebaseAnalytics */,
+				CE11829E28FD380F0033BBD2 /* FirebaseMessaging */,
+				CE1182A028FD380F0033BBD2 /* GoogleSignIn */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		CE11829328FD380F0033BBD2 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				CE11829428FD380F0033BBD2 /* nanopb.xcframework */,
+				CE11829528FD380F0033BBD2 /* GoogleAppMeasurementIdentitySupport.xcframework */,
+				CE11829628FD380F0033BBD2 /* PromisesObjC.xcframework */,
+				CE11829728FD380F0033BBD2 /* FirebaseAnalytics.xcframework */,
+				CE11829828FD380F0033BBD2 /* FirebaseCoreDiagnostics.xcframework */,
+				CE11829928FD380F0033BBD2 /* FirebaseInstallations.xcframework */,
+				CE11829A28FD380F0033BBD2 /* FirebaseCore.xcframework */,
+				CE11829B28FD380F0033BBD2 /* GoogleDataTransport.xcframework */,
+				CE11829C28FD380F0033BBD2 /* GoogleAppMeasurement.xcframework */,
+				CE11829D28FD380F0033BBD2 /* GoogleUtilities.xcframework */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		CE11829E28FD380F0033BBD2 /* FirebaseMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				CE11829F28FD380F0033BBD2 /* FirebaseMessaging.xcframework */,
+			);
+			path = FirebaseMessaging;
+			sourceTree = "<group>";
+		};
+		CE1182A028FD380F0033BBD2 /* GoogleSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				CE1182A128FD380F0033BBD2 /* AppAuth.xcframework */,
+				CE1182A228FD380F0033BBD2 /* Resources */,
+				CE1182A428FD380F0033BBD2 /* GoogleSignIn.xcframework */,
+				CE1182A528FD380F0033BBD2 /* GTMAppAuth.xcframework */,
+				CE1182A628FD380F0033BBD2 /* GTMSessionFetcher.xcframework */,
+			);
+			path = GoogleSignIn;
+			sourceTree = "<group>";
+		};
+		CE1182A228FD380F0033BBD2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE1182A328FD380F0033BBD2 /* GoogleSignIn.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE1182A828FD380F0033BBD2 /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CE1182CA28FD3A210033BBD2 /* FBAEMKit.xcframework */,
+				CE1182CC28FD3A210033BBD2 /* FBSDKCoreKit_Basics.xcframework */,
+				CE1182CB28FD3A210033BBD2 /* FBSDKCoreKit.xcframework */,
+				CE1182C828FD3A210033BBD2 /* FBSDKLoginKit.xcframework */,
+				CE1182C928FD3A210033BBD2 /* FBSDKShareKit.xcframework */,
+			);
+			path = FacebookSDK;
+			sourceTree = "<group>";
+		};
 		CE32E676273EC246002C7816 /* GameSDK */ = {
 			isa = PBXGroup;
 			children = (
-				CE6BF93A27CC85FA008EC577 /* GameSDKResource.bundle */,
-				CE6BF93B27CC85FA008EC577 /* include */,
-				CE6BF94827CC85FA008EC577 /* libGameSDK.a */,
-				CE78DDC92768470500E24B54 /* AppsFlyerLib.framework */,
-				CE78DD9F276846E900E24B54 /* libs */,
+				CE8FF41327D1FD41004C325E /* third-party */,
 			);
 			path = GameSDK;
 			sourceTree = "<group>";
 		};
-		CE6BF93B27CC85FA008EC577 /* include */ = {
+		CE8FF41327D1FD41004C325E /* third-party */ = {
 			isa = PBXGroup;
 			children = (
-				CE6BF93C27CC85FA008EC577 /* GameSDK */,
+				CE1182A828FD380F0033BBD2 /* FacebookSDK */,
+				CE11829028FD380F0033BBD2 /* Firebase */,
+				CE1182A728FD380F0033BBD2 /* GameSDK.xcframework */,
+				CE11828F28FD380F0033BBD2 /* GameSDKResource.bundle */,
+				CE8FF42F27D1FD41004C325E /* AppsFlyerLib.framework */,
 			);
-			name = include;
-			path = "../../../../../../../../../../Library/Developer/Xcode/DerivedData/DemoSDK_AppStore-bfkazezjniwayggdizxewafkgvru/Build/Products/Debug-iphoneos/include";
-			sourceTree = "<group>";
-		};
-		CE6BF93C27CC85FA008EC577 /* GameSDK */ = {
-			isa = PBXGroup;
-			children = (
-				CE6BF93D27CC85FA008EC577 /* FirebaseManager.h */,
-				CE6BF93E27CC85FA008EC577 /* GameSDK.h */,
-				CE6BF93F27CC85FA008EC577 /* LoginDelegate.h */,
-				CE6BF94027CC85FA008EC577 /* IdAppTracking.h */,
-				CE6BF94127CC85FA008EC577 /* UserProfileResponse.h */,
-				CE6BF94227CC85FA008EC577 /* IAPDataRequest.h */,
-				CE6BF94327CC85FA008EC577 /* FacebookManager.h */,
-				CE6BF94427CC85FA008EC577 /* GameInfo.h */,
-				CE6BF94527CC85FA008EC577 /* AppsflyerManager.h */,
-				CE6BF94627CC85FA008EC577 /* IAPDelegate.h */,
-				CE6BF94727CC85FA008EC577 /* AppleIAP.h */,
-			);
-			path = GameSDK;
-			sourceTree = "<group>";
-		};
-		CE6BF9F827CE0CC4008EC577 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CE6BF9FD27CE0CC4008EC577 /* libGameSDK.a */,
-				CE6BF9FF27CE0CC4008EC577 /* GameSDKResource.bundle */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CE78DD9F276846E900E24B54 /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				CE6BF9EB27CE04DD008EC577 /* FirebaseAnalytics.framework */,
-				CE6BF9EC27CE04DD008EC577 /* FirebaseCore.framework */,
-				CE6BF9EA27CE04DC008EC577 /* FirebaseCoreDiagnostics.framework */,
-				CE6BF9ED27CE04DD008EC577 /* FirebaseInstallations.framework */,
-				CE6BF9D027CDFEFB008EC577 /* FBSDKCoreKit_Basics.framework */,
-				CE6BF9CF27CDFEFB008EC577 /* FBSDKCoreKit.framework */,
-				CE6BF9D327CDFEFB008EC577 /* FBSDKLoginKit.framework */,
-				CE6BF9D127CDFEFB008EC577 /* FBSDKShareKit.framework */,
-				CE78DDA1276846E900E24B54 /* GoogleDataTransport.framework */,
-				CE78DDA3276846E900E24B54 /* GoogleAppMeasurement.framework */,
-				CE78DDA4276846E900E24B54 /* GTMSessionFetcher.framework */,
-				CE78DDA5276846E900E24B54 /* GTMAppAuth.framework */,
-				CE78DDA6276846E900E24B54 /* FirebaseCore.framework */,
-				CE78DDA7276846E900E24B54 /* AppAuth.framework */,
-				CE78DDA8276846E900E24B54 /* FirebaseAnalytics.framework */,
-				CE78DDA9276846E900E24B54 /* Firebase.h */,
-				CE78DDAA276846E900E24B54 /* GoogleUtilities.framework */,
-				CE78DDAB276846E900E24B54 /* FirebaseMessaging.framework */,
-				CE78DDAC276846E900E24B54 /* PromisesObjC.framework */,
-				CE78DDAD276846E900E24B54 /* GoogleSignIn.bundle */,
-				CE78DDAE276846E900E24B54 /* nanopb.framework */,
-				CE78DDB0276846EA00E24B54 /* FirebaseInstallations.framework */,
-				CE78DDB1276846EA00E24B54 /* GoogleSignIn.framework */,
-				CE78DDB2276846EA00E24B54 /* GoogleAppMeasurementIdentitySupport.framework */,
-				CE78DDB4276846EA00E24B54 /* FirebaseCoreDiagnostics.framework */,
-			);
-			name = libs;
-			path = "../../../../../../../../../../Library/Developer/Xcode/DerivedData/DemoSDK_AppStore-bfkazezjniwayggdizxewafkgvru/Build/Products/Debug-iphoneos/libs";
+			path = "third-party";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -399,7 +372,7 @@
 				TargetAttributes = {
 					8A8334D721006C00007200B0 = {
 						CreatedOnToolsVersion = 9.4;
-						LastSwiftMigration = 1250;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -413,12 +386,6 @@
 			mainGroup = 8A8334CF21006C00007200B0;
 			productRefGroup = 8A8334D921006C00007200B0 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = CE6BF9F827CE0CC4008EC577 /* Products */;
-					ProjectRef = CE6BF9F727CE0CC4008EC577 /* GameSDK.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				8A8334D721006C00007200B0 /* DemoSDK_AppStore */,
@@ -426,31 +393,14 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		CE6BF9FD27CE0CC4008EC577 /* libGameSDK.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libGameSDK.a;
-			remoteRef = CE6BF9FC27CE0CC4008EC577 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CE6BF9FF27CE0CC4008EC577 /* GameSDKResource.bundle */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = GameSDKResource.bundle;
-			remoteRef = CE6BF9FE27CE0CC4008EC577 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		8A8334D621006C00007200B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE78DDC1276846EA00E24B54 /* GoogleSignIn.bundle in Resources */,
+				CE1182BB28FD380F0033BBD2 /* GoogleSignIn.bundle in Resources */,
+				CE1182AD28FD380F0033BBD2 /* GameSDKResource.bundle in Resources */,
 				CE2D707B2542CBE400499913 /* GoogleService-Info.plist in Resources */,
-				CE6BF94927CC85FA008EC577 /* GameSDKResource.bundle in Resources */,
 				8A83351621006CD2007200B0 /* bg.jpg in Resources */,
 				8A8334E521006C01007200B0 /* Assets.xcassets in Resources */,
 				8A5528C3211B324700F7E933 /* LaunchScreen.storyboard in Resources */,
@@ -467,6 +417,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A8334EB21006C01007200B0 /* main.m in Sources */,
+				CEE10E4227E0902000129EBC /* File.swift in Sources */,
 				8A83351721006CD2007200B0 /* MainViewController.m in Sources */,
 				8A8334DD21006C00007200B0 /* AppDelegate.m in Sources */,
 			);
@@ -508,7 +459,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
-				CODE_SIGN_IDENTITY = "Apple Development: Thi Deo Nguyen (PYQGR896H2)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -570,11 +521,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: DUO ONLINE CORPORATION (5BA4MALA2M)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = TX8U89X44Q;
+				DEVELOPMENT_TEAM = 3NFV49G9HR;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -596,13 +547,77 @@
 		8A8334EF21006C01007200B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGNING_REQUIRED = "";
 				CODE_SIGN_ENTITLEMENTS = DemoSDK_AppStore/TienKiemMobileDebug.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development: Thi Deo Nguyen (PYQGR896H2)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C48HYS5WZ8;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = TX8U89X44Q;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DemoSDK_AppStore/SDK_Lib/include/GosuSDK/FacebookSDK",
+					"$(PROJECT_DIR)/DemoSDK_AppStore/SDK_Lib/include/GosuSDK/FirebaseSDK",
+					"$(PROJECT_DIR)/DemoSDK_AppStore/SDK_Lib/include/GosuSDK",
+					"$(BUILD_DIR)/Debug-iphoneos/include/GosuSDK",
+					"$(BUILD_DIR)/Debug-iphoneos/include/GosuSDK/FirebaseSDK",
+					"$(BUILD_DIR)/Debug-iphoneos/include/GosuSDK/FacebookSDK",
+					"$(PROJECT_DIR)/DemoSDK_AppStore/GameSDK",
+					"$(PROJECT_DIR)/DemoSDK_AppStore/GameSDK/third-party",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(BUILD_DIR)/Debug-iphoneos/include/GameSDK",
+					"$(PROJECT_DIR)/DemoSDK_AppStore/GameSDK",
+				);
+				INFOPLIST_FILE = DemoSDK_AppStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(BUILD_DIR)/Debug-iphoneos/",
+					"$(BUILD_DIR)/Debug-iphoneos/include/GameSDK",
+					"$(PROJECT_DIR)/DemoSDK_AppStore/GameSDK",
+				);
+				MARKETING_VERSION = 0.0.2;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"-lz",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.gosu.devapps;
+				PRODUCT_NAME = TienKiemMobile;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "devapps-nero";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "devapps-nero";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoSDK_AppStore/DemoSDK_AppStore-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		8A8334F021006C01007200B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGNING_REQUIRED = "";
+				CODE_SIGN_ENTITLEMENTS = DemoSDK_AppStore/DemoSDK_AppStore.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = LGBVJF5AL4;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -621,65 +636,7 @@
 					"$(PROJECT_DIR)/DemoSDK_AppStore/GameSDK",
 				);
 				INFOPLIST_FILE = DemoSDK_AppStore/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(BUILD_DIR)/Debug-iphoneos/",
-					"$(BUILD_DIR)/Debug-iphoneos/include/GameSDK",
-					"$(PROJECT_DIR)/DemoSDK_AppStore/GameSDK",
-				);
-				MARKETING_VERSION = 0.0.2;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-					"-lz",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = vn.lmbaoboi.gg;
-				PRODUCT_NAME = TienKiemMobile;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = LMBB_DEV_1;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "";
-			};
-			name = Debug;
-		};
-		8A8334F021006C01007200B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGNING_REQUIRED = "";
-				CODE_SIGN_ENTITLEMENTS = DemoSDK_AppStore/DemoSDK_AppStore.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: DUO ONLINE CORPORATION (5BA4MALA2M)";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5BA4MALA2M;
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/DemoSDK_AppStore/SDK_Lib/include/GosuSDK/FacebookSDK",
-					"$(PROJECT_DIR)/DemoSDK_AppStore/SDK_Lib/include/GosuSDK/FirebaseSDK",
-					"$(PROJECT_DIR)/DemoSDK_AppStore/SDK_Lib/include/GosuSDK",
-					"$(BUILD_DIR)/Debug-iphoneos/include/GosuSDK",
-					"$(BUILD_DIR)/Debug-iphoneos/include/GosuSDK/FirebaseSDK",
-					"$(BUILD_DIR)/Debug-iphoneos/include/GosuSDK/FacebookSDK",
-					"$(PROJECT_DIR)/DemoSDK_AppStore/GameSDK",
-					"$(PROJECT_DIR)/DemoSDK_AppStore/GameSDK/third-party",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(BUILD_DIR)/Debug-iphoneos/include/GameSDK",
-					"$(PROJECT_DIR)/DemoSDK_AppStore/GameSDK",
-				);
-				INFOPLIST_FILE = DemoSDK_AppStore/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -705,11 +662,11 @@
 					"-lc++",
 					"-lz",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = vn.duo.m356;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.lmbaoboi.gg;
 				PRODUCT_NAME = TienKiemMobile;
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = digi_dis_new;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				PROVISIONING_PROFILE_SPECIFIER = LMBB_DEV_1;
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoSDK_AppStore/DemoSDK_AppStore-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
@@ -781,13 +738,15 @@
 		CE6BF9E727CE0331008EC577 /* Debug_lmbaoboi */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGNING_REQUIRED = "";
 				CODE_SIGN_ENTITLEMENTS = DemoSDK_AppStore/TienKiemMobileDebug.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = TX8U89X44Q;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -806,7 +765,7 @@
 					"$(PROJECT_DIR)/DemoSDK_AppStore/GameSDK",
 				);
 				INFOPLIST_FILE = DemoSDK_AppStore/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -824,11 +783,11 @@
 					"-lc++",
 					"-lz",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = vn.gosu.tkts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.megastudio.huyenthoai;
 				PRODUCT_NAME = TienKiemMobile;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = gamesdk.test.tkts;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoSDK_AppStore/DemoSDK_AppStore-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
