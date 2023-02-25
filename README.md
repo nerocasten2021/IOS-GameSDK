@@ -249,9 +249,18 @@ didReceiveNotificationResponse:(UNNotificationResponse *)response
 ```
 ## Delete Account API
 ```objectivec
+//Check if deleting account is enabled. return TRUE/FALSE
+[[GameSDK sharedInstance] deleteAccountAllow]
+//call delete account
 [[GameSDK sharedInstance] deleteAcount:self andCallback:^(NSDictionary *response) {
     NSLog(@"response = %@", response);
 }];
+
+if([[GameSDK sharedInstance] deleteAccountAllow]) {
+    [[GameSDK sharedInstance] deleteAcount:self andCallback:^(NSDictionary *response) {
+        NSLog(@"response = %@", response);
+    }];
+}
 ```
 
 ## Using IAP
