@@ -27,9 +27,13 @@
   - MobileCoreServices.framework
   - SystemConfiguration.framework
   - MessageUI.framework
-- Embed FacebookSDK framework (FBSDK*) with embed content is **Embed & Sign**
 - Adding Capabilities: Sign-in with Apple, Push Notifications
 
+### With Facebook IOS SDK version 13 or latest
+  - Create a swift file (arbitrary name), confirm "Create Bridging Header" when prompt appear
+  - Add Accelerate.framework to target: Target --> Build Phases --> Link Binary With Libraries --> click Plus, find and add Accelerate.framework
+  - Enable Modules (C and Objective-C) set to YES: Target --> Build Settings --> Enable Modules (C and Objective-C)
+  
 # Configuration
 - Insert -ObjC -lc++ -lz to “Other Linker Flags ”on Xcode Project: Main target -> build settings -> search "other linker flags"
 - Configure Tracking Usage Description into .plist file (default: info.plist)*.
@@ -83,7 +87,23 @@
 * Replace APP-ID with FacebookApp ID
 * In the key FacebookClientToken, replace CLIENT-TOKEN 
 * In the key FacebookDisplayName, replaceAPP-NAME with the name of provided.
-
+  
+### Configure GoogleSignIn in your project (default info.plist)
+  ** Refer [Get started with Google Sign-In for iOS](https://developers.google.com/identity/sign-in/ios/start-integrating) **
+  ```xml
+   <key>GoogleAppID</key>
+   <string>1234567890-abcdefg.apps.googleusercontent.com</string>
+   <key>CFBundleURLTypes</key>
+   <array>
+    <dict>
+       <key>CFBundleURLSchemes</key>
+       <array>
+          <string>com.googleusercontent.apps.1234567890-abcdefg</string>
+       </array>
+    </dict>
+   </array>
+  ```
+  
 ### Add services and SDK related resource library
 1. The file Appdelegate.m configuration instructions are as follows:
 ```objectivec
@@ -227,6 +247,22 @@ didReceiveNotificationResponse:(UNNotificationResponse *)response
 [[GameSDK sharedInstance] IDSignOut:self];
 //use as Logout Delegate
 ```
+## Delete Account API
+```objectivec
+//Check if deleting account is enabled. return TRUE/FALSE
+[[GameSDK sharedInstance] deleteAccountAllow]
+//call delete account
+[[GameSDK sharedInstance] deleteAcount:self andCallback:^(NSDictionary *response) {
+    NSLog(@"response = %@", response);
+}];
+
+if([[GameSDK sharedInstance] deleteAccountAllow]) {
+    [[GameSDK sharedInstance] deleteAcount:self andCallback:^(NSDictionary *response) {
+        NSLog(@"response = %@", response);
+    }];
+}
+```
+
 ## Using IAP
 *** appleSecret default is empty (ex: @""), this will change when we send the request to you
   

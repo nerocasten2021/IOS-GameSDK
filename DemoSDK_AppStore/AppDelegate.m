@@ -28,9 +28,11 @@ NSString *const kGCMMessageIDKey = @"gcm.message_id";
     [_window makeKeyAndVisible];
     
     //init SDK
+    NSLog(@"DEMLOG = 1");
     [[GameSDK sharedInstance] initSdk];
     [[GameSDK sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
     [[GameSDK Firebase] application:self andApplication:application didFinishLaunchingWithOptions:launchOptions];
+    NSLog(@"DEMLOG = 2");
     return YES;
 }
 
@@ -49,6 +51,7 @@ NSString *const kGCMMessageIDKey = @"gcm.message_id";
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     NSLog(@"applicationDidBecomeActive");
     [[GameSDK sharedInstance] applicationDidBecomeActive:application];
+    NSLog(@"DEMLOG = 3");
     application.applicationIconBadgeNumber = 0;
 }
 
