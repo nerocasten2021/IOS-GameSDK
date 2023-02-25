@@ -44,6 +44,9 @@
 - (BOOL)application:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
 
+- (BOOL) deleteAccountAllow;
 - (void) deleteAcount:(UIViewController *) mainView andCallback:(void(^)(NSDictionary *))callback;
 //- (void) showPayView:(UIViewController *)viewParent;
+
+- (void) showFloatingButton:(UIViewController *)mainView;
 @end

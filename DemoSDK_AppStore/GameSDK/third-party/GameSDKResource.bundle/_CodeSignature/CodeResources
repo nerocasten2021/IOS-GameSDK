@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/GameSDK.h</key>
 		<data>
-		ylBCEcIiKDE/o2pCzdluKRZQ6LA=
+		+72qqO8vFg/G+YBCaaG6Lk2jO6U=
 		</data>
 		<key>SignInViewController.nib/objects-14.0+.nib</key>
 		<data>
@@ -32,9 +32,21 @@
 		<data>
 		24ZW4yvjkN8PkfES3yFpdbO768M=
 		</data>
-		<key>View1Controller.nib</key>
+		<key>View1Controller.nib/objects-11.0+.nib</key>
 		<data>
 		0Lmouu3X5hHjrOrPl2qNaW/Wtio=
+		</data>
+		<key>View1Controller.nib/runtime.nib</key>
+		<data>
+		O12etl1eJenDkX+1nlbOity1MHQ=
+		</data>
+		<key>a18plus.png</key>
+		<data>
+		LpIMaxShIAnC9hsOiwRP6Ot7FBc=
+		</data>
+		<key>a18plus_full.png</key>
+		<data>
+		qQjU69yVJiGasdn9F3fTw3XNaSI=
 		</data>
 		<key>close.png</key>
 		<data>
@@ -130,7 +142,7 @@
 		</data>
 		<key>oPayViewController.nib</key>
 		<data>
-		tpbFeULhrQIDQTJbLxY7p4DSVbI=
+		zs5fqfMzP7nRtxoM2FA4NVXdLR8=
 		</data>
 		<key>tao_trang.png</key>
 		<data>
@@ -191,11 +203,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ylBCEcIiKDE/o2pCzdluKRZQ6LA=
+			+72qqO8vFg/G+YBCaaG6Lk2jO6U=
 			</data>
 			<key>hash2</key>
 			<data>
-			ylJmG5w0IaRVn58o5M6PfBer8YOs5Wi1p8gAxZ2CXe8=
+			STxW0exiMY9znij8OSuR4JW3X6bfNVktSZ7xVfVmo3w=
 			</data>
 		</dict>
 		<key>SignInViewController.nib/objects-14.0+.nib</key>
@@ -220,7 +232,7 @@
 			ll1ZnDLS3soqR9t1egZT3NPKMdv9GzWNUujipW6MGxM=
 			</data>
 		</dict>
-		<key>View1Controller.nib</key>
+		<key>View1Controller.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -229,6 +241,39 @@
 			<key>hash2</key>
 			<data>
 			dpn5BOGhPAmwyd7nOJNWssOYaYQJH+gChHQfK7AS4do=
+			</data>
+		</dict>
+		<key>View1Controller.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			O12etl1eJenDkX+1nlbOity1MHQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			Xd+DYI+b2tdr2O4FHwf+ElLccpR3M1+FPZUejgcTWGI=
+			</data>
+		</dict>
+		<key>a18plus.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LpIMaxShIAnC9hsOiwRP6Ot7FBc=
+			</data>
+			<key>hash2</key>
+			<data>
+			dBDvYYYDbDt2UO9rfGyDZPUGb53DKUxef1ZNvx7FBpk=
+			</data>
+		</dict>
+		<key>a18plus_full.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qQjU69yVJiGasdn9F3fTw3XNaSI=
+			</data>
+			<key>hash2</key>
+			<data>
+			uyfxraGCcfTRhVHmHsSk6qiOCNNNB3eQfzTyxsoffgA=
 			</data>
 		</dict>
 		<key>close.png</key>
@@ -488,11 +533,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tpbFeULhrQIDQTJbLxY7p4DSVbI=
+			zs5fqfMzP7nRtxoM2FA4NVXdLR8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ikvrkaByQys/TxHnXOXJv0cixgI+xiiwK6kJQ0Wo/7M=
+			QG5XmCj2lh6SvdHTUbszbpvlQIzvJ7XZjBpxIvp5jkY=
 			</data>
 		</dict>
 		<key>tao_trang.png</key>
